@@ -102,7 +102,6 @@ class DifferenceSequence:
 
         index = Index()
         index_out = Index()
-        keys_todo = defaultdict(set)
         output = []
 
         for collection in self._inner:
